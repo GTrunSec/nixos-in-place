@@ -47,14 +47,14 @@ set +e
 set -e
 [ ! "$arch" = "x86_64" ] && arch=i686
 
-primary_version=16.09
-secondary_version=680.4e14fd5
+primary_version=19.09
+secondary_version=2201.7d31bbceaa1
 full_version=$primary_version.$secondary_version
 minimal_iso=nixos-minimal-$full_version-${arch}-linux.iso
 graphical_iso=nixos-graphical-$full_version-${arch}-linux.iso
 iso=$minimal_iso
-minimal_checksum=8700fd1861e83dba0c3c2cb348099d2499b2c52844d1771f1aacbf7458990bc8
-graphical_checksum=f1144de2645b1d099035416cb335e33cb56fdf71c8f8900c75a6a91ac2f49464
+minimal_checksum=9f22b735f8f416bb8195cef9436ddec04db709132dae87137026b9725cf5678a
+graphical_checksum=5552afe2aa13059689047a77539e86614c91e15a2dadcdd5d9fccf3611afab88
 checksum=$minimal_checksum
 
 minimal_space=3
